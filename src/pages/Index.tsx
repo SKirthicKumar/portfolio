@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { containerVariants, itemVariants } from '@/lib/animations';
 
 const Index = () => {
@@ -48,7 +48,7 @@ const Index = () => {
               className="flex flex-col sm:flex-row gap-6 justify-center items-center"
             >
               <motion.button
-                onClick={handleViewWork}
+                onClick={() => navigate('/projects')}
                 whileHover={{ 
                   scale: 1.05, 
                   boxShadow: "0 0 40px rgba(168, 85, 247, 0.6)",
