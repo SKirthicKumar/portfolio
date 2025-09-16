@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { containerVariants, itemVariants } from '@/lib/animations';
 
 const Index = () => {

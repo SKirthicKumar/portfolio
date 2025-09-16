@@ -145,6 +145,12 @@ const About = () => {
             </h2>
             <div className="space-y-8">
               {[
+                 {
+                  year: "2022",
+                  title: "College - BCA",
+                  college: "Yadav College",
+                  description: "Graduated with a BCA from Yadav College in 2022, gaining strong foundational knowledge in computer science and web development."
+                },
                 {
                   year: "2023",
                   title: "Intern - Web Development",
